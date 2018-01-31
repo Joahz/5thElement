@@ -1,0 +1,111 @@
+body { /*  0,0,0,1 = 1   */
+  background-image: url("candc.jpg");
+}
+
+table { /*  0,0,0,1 = 1   */
+  text-align:center;
+  color: yellow;
+  background: rgba(255,255,255, 0.3);
+  border: 5px solid rgba(0, 0, 0, .5);
+  border-radius: 10px;
+  width: 90%;
+  padding: 10px;
+  margin: auto;
+}
+
+th { /*  0,0,0,1 = 1   */
+  border: 5px solid rgba(255,255,255, 0.3);
+  border-radius: 5px;
+  background-color: gray;
+  opacity: 0.70;
+}
+
+a {
+  color: white;
+}
+
+
+table h3 { /*  0,0,0,2 =  2  */
+  color: orange;
+  font-size: 30px;
+  opacity: 0.80;
+  padding: 5px;
+  text-transform: uppercase;
+  margin: auto;
+  width: 100%;
+}
+
+#banner { /*  0,1,0,0 = 100   */
+  width: 100%;
+  height: 200px;
+  position:fixed;
+  color: black;
+  display: inline-block;
+}
+
+#bateman img { /*  0,1,0,1 = 101   */
+  opacity: .95;
+  width: 600px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  border-radius: 50px;
+}
+
+#logo img { /*  0,1,0,1 = 101   */
+  opacity: .80;
+  width: 600px;
+  height:300px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  border-radius: 50px;
+}
+
+#intro { /*  0,1,0,0 = 100   */
+  font-size: 25px;
+  color: #8c6b48;
+  text-align:center;
+  margin:auto;
+  margin-top: 0px;
+  background: rgba(255,255,255, 0.3);
+  border: 5px solid rgba(0, 0, 0, .5);
+  border-radius: 10px;
+  width: 800px;
+  padding: 10px;
+  padding-top: 0;
+}
+
+#content td { /*  0,1,0,1 = 101    */
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  opacity: .70;
+}
+
+#banner.header { /*  0,1,1,0 =  110   */
+  color: red;
+}
+
+#row1.members { /*  0,1,1,0 = 110    */
+  width: 150px;
+}
+
+#row1.upcoming { /*  0,1,1,0 = 110    */
+  width: 200px;
+}
+
+#row1.current { /*  0,1,1,0 = 110    */
+  width: 200px;
+}
+
+#intro #form {/*  0,2,0,0 = 200    */
+  color: black;
+}
+
+#content .names { /*  0,2,0,0 =  200  */
+  text-align: left;
+  padding-left: 25px;
+}
